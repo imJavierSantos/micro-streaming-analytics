@@ -20,7 +20,6 @@ import java.io.IOException;
 @Configuration
 @ComponentScan("com.amplia.demo.core")
 @EnableRabbit
-@EnableMongoRepositories("com.amplia.demo.core.repository")
 public class AppConfig {
 
     @Bean
